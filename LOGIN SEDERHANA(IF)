@@ -1,0 +1,7 @@
+username = input("masukan nama :")
+password = input("masukan password :")
+
+if username == "fuad" and password == "123":
+    print("login berhasil")
+else:
+    print("login gagal")
