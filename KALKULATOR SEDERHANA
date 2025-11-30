@@ -1,0 +1,33 @@
+# KALKULATOR SEDERHANA
+# BUATLAH PROGRAM PYTHON BERUPA 1. INPUT VARIABEL 2.INPUT OPERATOR 3.INPUT VARAIABEL KE DUA
+# PROGRAM HARUS MENGHITUNG INPUT DARI USER
+
+
+while True:
+    x = int(input("masukan angka :"))
+    operator = input("masukan operator (+,-,*,/) :")
+    n = int(input("masukan angka :"))
+
+    if operator == "+":
+        hasil = x + n
+
+    elif operator == "-":
+     hasil = x - n
+
+    elif operator == "*":
+        hasil = x * n
+
+    elif operator == "/":
+        if n != 0:
+            hasil = x/ n
+
+        else:
+           hasil = "Error : tidak bisa di bagi 0"
+    else:
+     hasil = "operator tidak valid"
+    print("hasil :", hasil)
+
+    ulangi =input("ulangi program (y/n) :")
+    if ulangi != 'y':
+      print("program selesai")
+      break 
