@@ -1,0 +1,7 @@
+print("menghitung umur")
+tahun_lahir= int(input("Masukan tahun lahir anda :"))
+tahun_saat_ini = 2025
+
+umur = tahun_saat_ini - tahun_lahir
+
+print("Umur anda saat ini :",umur)
