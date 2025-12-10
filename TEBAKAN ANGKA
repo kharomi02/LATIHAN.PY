@@ -1,0 +1,16 @@
+angka_rahasia = 7
+kesempatan = 3
+
+while kesempatan > 0:
+    tebakan = int(input("tebak angka (1-10) :"))
+    
+
+    if tebakan == angka_rahasia:
+       print = int("selamat tebakan kamu benar") 
+       break
+    else:
+        kesempatan -=1
+        print("tebakan salah, sia kesempatan : ",kesempatan)
+
+if kesempatan == 0:
+    print("kesempatan habis, kamu kalah ")
